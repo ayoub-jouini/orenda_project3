@@ -111,6 +111,7 @@ nav {
     display: grid;
     justify-items: center;
     align-items: center;
+    transition-property: background, opacity;
     transition-duration: 0.8s;
 }
 .mekla div:hover{
@@ -162,10 +163,25 @@ nav {
     grid-template-columns: 25% auto;
     align-items: center;
 } 
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.email button{
+    height: 32px;
+    width: 80px;
+    margin-left: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #FF0000;
+    border-color: #FF0000;
+}
 .cont input {
     border-radius: 10px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    margin-right: 0;
 }
 .cont-txt {
     color: white;
