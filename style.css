@@ -29,7 +29,12 @@ nav {
 .home a {
     color: white;
     margin-right: 50px;
-    font-size: 33px;    
+    font-size: 33px;   
+    padding: 10px;
+    border-radius: 10px; 
+}
+.home a:hover {
+    background-color: #FF0000;
 }
 .nav-2 {
     color: #FF0000;
@@ -101,11 +106,16 @@ nav {
 .mekla div {
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 400px;
     width: 400px;
     display: grid;
     justify-items: center;
     align-items: center;
+    transition-duration: 0.8s;
+}
+.mekla div:hover{
+    background-color: gray;
+    opacity: 0.5;
 }
 .pizza {
     grid-column: 1/2;
@@ -121,11 +131,13 @@ nav {
     grid-column: 1/2;
     grid-row: 2/3;
     background-image: url(images/mae-mu-Pvclb-iHHYY-unsplash.png);
+    margin-bottom: 50px;
 }
 .salad {
     grid-column: 2/3;
     grid-row: 2/3;
     background-image: url(images/david-hunter-poVDDmE_4l0-unsplash.png);
+    margin-bottom: 50px;
 }
 .mekla a {
     color: white;
@@ -149,9 +161,11 @@ nav {
     display: grid;
     grid-template-columns: 25% auto;
     align-items: center;
-}
+} 
 .cont input {
     border-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 .cont-txt {
     color: white;
