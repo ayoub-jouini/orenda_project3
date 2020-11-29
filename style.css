@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F0F0F0;
+}
+a{
+    text-decoration: none;
+}
+.div-1 {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 277px auto 277px;
+    align-content: center; 
+    height: 80px;   
+}
+nav {
+    grid-column: 2/3;
+    display: flex;
+    justify-content: space-between;
+
+}
+#nav-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.home a {
+    color: white;
+    margin-right: 50px;
+    font-size: 33px;    
+}
+.nav-2 {
+    color: #FF0000;
+    font-family: 'Comic Sans MS', Courier, monospace;
+    font-size: 23px;
+}
+.div-2 {
+    background-image: url(images/vishwas-katti-UrQ_BS9bLXQ-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 650px;
+    display: grid;
+    grid-template-columns: 277px auto 277px;
+}
+.about {
+    background-color: white;
+    border-radius: 40px;
+    height: 350px;
+    width: 400px;
+    grid-column: 2/3;
+    justify-self: end;
+    align-self: center;
+    display: grid;
+    grid-template-rows: 75% 25%;
+}
+.txt {
+    grid-row: 1/2;
+    font-size: 25px;
+    margin: 40px
+}
+.btn1 {
+    margin-right: 40px;
+    grid-row: 2/3;
+    justify-self: end;
+}
+.btn1 button {
+    background-color: #FF0000;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border-color: #FF0000;
+    color: white;
+    font-size: 15px;
+}
+.div-3 {
+    display: grid;
+    grid-template-columns: 277px auto 277px;
+    grid-template-rows: 150px auto;
+}
+.menu {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    color: #FF0000;
+    justify-self: center;
+    font-size: 43px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.mekla {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto;
+    justify-items: stretch;
+    align-items: start;
+    gap: 80px 100px;
+}
+.mekla div {
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 400px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.pizza {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url(images/likemeat-CbNAuxSZTFo-unsplash.png);
+}
+.sandw {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url(images/eiliv-sonas-aceron-PlLvvTs-kxU-unsplash.png);
+}
+.pasta {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image: url(images/mae-mu-Pvclb-iHHYY-unsplash.png);
+}
+.salad {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(images/david-hunter-poVDDmE_4l0-unsplash.png);
+}
+.mekla a {
+    color: white;
+    font-size: 63px;
+    font-family: 'Comic Sans MS', Courier, monospace;
+}
+.div-4 {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 277px auto 277px;
+    justify-items: center;
+    height: 400px;
+}
+.contact{
+    grid-column: 2/3;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+.cont {
+    display: grid;
+    grid-template-columns: 25% auto;
+    align-items: center;
+}
+.cont input {
+    border-radius: 10px;
+}
+.cont-txt {
+    color: white;
+    font-size: 40px;
+}
