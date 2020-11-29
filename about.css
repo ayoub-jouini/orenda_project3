@@ -108,8 +108,11 @@ nav {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     margin-right: 0;
+    height: 32px;
+    width: 300px;
 }
 .cont-txt {
     color: white;
     font-size: 40px;
+    margin-right: 80px;
 }
